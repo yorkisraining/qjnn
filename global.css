@@ -72,7 +72,7 @@ a {
 
 .center  {
 	position: relative;
-    width: 1060px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -115,6 +115,11 @@ a {
 	color: #EB8594;
 }
 
+.qi-nav a:hover {
+	color: #ff7300;
+}
+
+
 .shu {
 	color: #ccc;
 	padding-left: 10px;
@@ -138,3 +143,518 @@ a {
 	left: -280px;
 	top: 50px;
 }
+
+/*资讯*/
+.qi-new {
+	position: relative;
+    width: 100%;
+    color: #fff;
+    background: url(http://game.gtimg.cn/images/qjnn/web201604/bg_02.jpg);
+    height: 280px;
+    background-position: center top;
+    z-index: 222;
+}
+
+.qi-newlist {
+	width: 1200px;
+    position: absolute;
+    margin: 0 auto;
+    height: 300px;
+    background: #fff;
+    top: -65px;
+    z-index: 333;
+}
+
+.qi-newlist-roll {
+	width: 526px;
+    height: 300px;
+    float: left;
+}
+
+.roll-wrap {
+	position: absolute;
+    left: 0;
+    overflow: hidden;
+    width: 525px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.roll-pic {
+	width: 1575px;
+	position: absolute;
+	height: 100%;
+	left: 0;
+}
+
+.roll-pic li {
+	width: 525px;
+	float: left;
+}
+
+.btn {
+	position: absolute;
+	cursor: pointer;
+}
+
+.btn a {
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.roll-btn {
+	bottom: 0;
+	right: 10px;
+}
+
+.roll-btn a {
+	background-color: #cfcfcf;
+	width: 15px;
+	height: 15px;
+}
+
+.roll-btn .on {
+	background-color: #EB8594;
+}
+
+.qi-newlist-advan {
+    overflow: hidden;
+    padding-left: 15px;
+    color: #fff;
+    padding-right: 240px;
+}
+
+.qi-left {
+	margin: 0 auto;
+    color: #5f3e4f;
+    height: 100%;
+    position: relative;
+    top: 10px;
+}
+
+.advan-left-nav {
+	height: 42px;
+    border-bottom: 2px solid #D7D7D7;
+    width: 410px;
+}
+
+.advan-left-nav li {
+	float: left;
+	width: 23%;
+}
+
+.advan-left-nav .on {
+	border-bottom: 3px solid #e47e80;
+	color: #e47e80;
+}
+
+.advan-left-nav li a {
+	height: 42px;
+	line-height: 42px;
+	font-size: 1.2em;
+	text-align: center;
+	display: block;
+	color: #5f3e4f;
+}
+
+.more {
+	height: 20px;
+	display: inline-block;
+	font-size: 1.4em;
+	line-height: 20px;
+	color: #d7d7d7;
+	border-radius: 50%;
+	border: 2px solid #D7D7D7;
+	width: 20px;
+	text-align: center;
+	position: absolute;
+}
+
+.advan-left-nav .more {
+	top: 10px;
+}
+
+.advan-content-list ul {
+	padding: 4px 10px 10px;
+    font-size: 14px;
+}
+
+.advan-content-list li {
+	overflow: hidden;
+    height: 48px;
+    line-height: 48px;
+}
+
+.advan-content-list a {
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #5f3e4f;
+    float: left;
+}
+
+.advan-content-list a:hover {
+	color: #e47e80;
+}
+
+.advan-content-list .list-title {
+	width: 290px;
+}
+
+.content-date {
+	color: #000;
+}
+
+.advan-right {
+	position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.advan-right-download-bg {
+	background-image: url(https://game.gtimg.cn/images/qjnn/web201604/qr-bg.jpg);
+	width: 225px;
+	height: 299px;
+}
+
+.download-qr {
+	padding: 25px 15px;
+}
+
+.download-qr img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.download-list {
+	position: absolute;
+	bottom: 0;
+	width: 225px;
+}
+
+.download-list a {
+	width: 50%;
+	height: 50px;
+	display: inline-block;
+	float: left;
+}
+
+/*共同模块*/
+.qi-module-content {
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 1200px;
+    top: 70px;
+}
+
+.qi-module-bg {
+	width: 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+
+/*游戏特色*/
+.qi-game-feature {
+	background-image: url(https://game.gtimg.cn/images/qjnn/web201604/bg_04.jpg);
+	width: 100%;
+	height: 566px;
+}
+
+.qi-feature-wrap {
+	height: 465px;
+}
+
+
+.feature-swiper-wrap {
+	width: 6000px;
+	position: absolute;
+}
+
+.feature-swiper-wrap li {
+	float: left;
+}
+
+.feature-pic {
+	display: block;
+}
+
+.feature-btn {
+	bottom: 5px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.feature-btn a {
+	width: 15px;
+	height: 15px;
+	background-color: #fff;
+	border: 1px solid #f2707a;
+	box-shadow: 0px 1px 2px #e47e80 inset;
+}
+
+.feature-btn .on {
+	background-color: #f2707a;
+}
+
+/*文字内容共同模块*/
+.text-module .qi-module-content {
+	background-color: #fff;	
+	color: #5f3e4f;
+}
+
+.text-module-left {
+	width: 370px;
+	float: left;
+	padding: 0 15px;
+}
+
+.text-module-center {
+	width: 370px;
+	float: left;
+	padding: 0 15px;
+}
+
+.text-module-right {
+	width: 370px;
+	float: left;
+	padding: 0 15px;
+}
+
+.text-module-head {
+	height: 60px;
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.text-module-title {
+	float: left;
+	line-height: 60px;
+	color: #5f3e4f;
+	font-size: 20px;
+}
+
+.text-module-head .more {
+	right: 10px;
+	top: 15px;
+}
+
+.module-pic {
+	width: 100%;
+	height: 140px;
+	margin-bottom: 20px;
+}
+
+.module-pic img {
+	width: 100%;
+}
+
+.text-module-newlist {
+	overflow: hidden;
+}
+
+.text-module-newlist a {
+	color: #5f3e4f;
+}
+
+.text-module-newlist li {
+	overflow: hidden;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+}
+
+.text-module-newlist .list-date {
+	float: right;
+	color: #000;
+}
+
+.list-title:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.list-type:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+
+/*游戏攻略*/
+
+.qi-raiders {
+	background-image: url(https://game.gtimg.cn/images/qjnn/web201604/bg_05.jpg);
+	height: 516px;
+}
+
+.qi-raiders-wrap {
+	height: 425px;
+}
+
+
+
+.raiders-gq {
+	border-collapse: collapse;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.raiders-gq td {
+	height: 30px;
+	line-height: 30px;
+	width: 180px;
+	text-align: left;
+	padding: 5px;
+}
+
+.raiders-gq td:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.raiders-gq th {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #ffb8c7;
+	border: 1px solid #ffb8c7;
+	font-size: 18px;
+	color: #fff;
+}
+
+.raiders-gq .on {
+	background-color: #e47e80;
+	border: 1px solid #e47e80;
+}
+
+.raiders-jn li {
+	width: 86px;
+	height: 95px;
+	text-align: center;
+	display: inline-block;
+	color: #5f3e4f;
+	background: #F8F8F8;
+    border: 1px solid #E8E8E8;
+    margin: 5px auto;
+}
+
+.raiders-jn img {
+	width: 85%;
+}
+
+.raiders-jn p {
+	font-size: 12px;
+	margin-top: -10px;
+}
+
+/*同人*/
+.qi-tr {
+	background-image: url(https://game.gtimg.cn/images/qjnn/web201604/bg_06.jpg);
+	height: 593px;
+}
+
+.qi-tr-wrap {
+	height: 420px;
+}
+
+.tr-video {
+	overflow: hidden;
+}
+
+.tr-video li {
+	width: 175px;
+	height: 145px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	margin: 0 5px 20px;
+}
+
+.tr-video-info {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.tr-video-info img {
+	width: 100%;
+	height: 100%;
+}
+
+.tr-video-info span {
+	display: block;
+	width: 100%;
+	height: 40px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 0;
+	line-height: 40px;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+/*合作*/
+
+.qi-coo {
+	height: 255px;
+	position: relative;
+	background-color: #f8f8f8;
+}
+
+.coo-title {
+    font-size: 30px;
+    color: #50505A;
+    width: 120px;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.coo-list {
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.coo-list li {
+	width: 163px;
+	display: inline-block;
+}
+
+.coo-list li a {
+	display: block;
+}
+
+/*footer*/
+
+.qi-footer {
+	background-color: #94495b;	
+}
+
+.footer-wrap {
+	height: 145px;
+    text-align: center;
+    padding: 25px;
+    color: #D3BBC0;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.qi-footer a {
+	color: #fff;
+}
+
+.qi-footer p {
+	color: #D3BBC0;
+}
+
+

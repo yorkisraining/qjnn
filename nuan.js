@@ -7,7 +7,7 @@ var swidth = document.documentElement.clientWidth,
 	sheight = document.documentElement.clientHeight;
 
 var perx = (1920 - swidth) / (swidth * 5),
-	pery = sheight / (766 * 20);
+	pery = sheight / (766 * 10);
 
 var vx, vy, nowX, nowY, shouldx, shouldy;
 

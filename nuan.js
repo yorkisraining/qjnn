@@ -11,8 +11,9 @@ var perx = (1920 - swidth) / (swidth * 5),
 
 var vx, vy, nowX, nowY, shouldx, shouldy;
 
-window.addEventListener('mousemove', function(e) {
 
+
+function lis(e) {
 
 	nowX = e.clientX;
 	nowY = e.clientY;
@@ -36,39 +37,15 @@ window.addEventListener('mousemove', function(e) {
 
 	people.style.top = iTop + 'px';
 	people.style.left = iLeft + 'px';
+}
 
-});
-
-
-
-// 新闻模块轮播
-var pic = document.getElementsByClassName('roll-pic')[0];
-var picCount = 0;
-var picNum = 3
-var picWidth = 525;
-setInterval(function() {
-	pic.style.left = picCount * -picWidth + 'px';
-	if (picCount < (picNum-1)) {
-		picCount++;
+window.onscroll = function(e) {
+	var top = document.body.scrollTop;
+	var a = document.getElementsByClassName('qi-bigpic')[0];
+	var height = a.offsetTop + a.clientHeight;
+	if (top > height) {
+		window.removeEventListener('mousemove', function(e) {lis(e)});
 	} else {
-		picCount = 0;
+		window.addEventListener('mousemove', function(e) {lis(e)});
 	}
-}, 5000);
-
-// 游戏特色轮播
-var feature = document.getElementsByClassName('feature-swiper-wrap')[0];
-var featureCount = 0;
-var featureNum = 5;
-var featureWidth = 1200;
-setInterval(function() {
-	feature.style.left = featureCount * -featureWidth + 'px';
-	if (featureCount < (featureNum-1)) {
-		featureCount++;
-	} else {
-		featureCount = 0;
-	}
-}, 5000);
-
-
-
-
+}

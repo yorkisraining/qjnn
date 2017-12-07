@@ -181,10 +181,10 @@ a {
 }
 
 .roll-pic {
-	width: 1575px;
+	width: 2675px;
 	position: absolute;
 	height: 100%;
-	left: 0;
+	left: -525px;
 }
 
 .roll-pic li {
@@ -369,8 +369,9 @@ a {
 
 
 .feature-swiper-wrap {
-	width: 6000px;
+	width: 8400px;
 	position: absolute;
+	left: -1200px;
 }
 
 .feature-swiper-wrap li {
